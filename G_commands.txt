@@ -1,0 +1,75 @@
+Git/Github Commands
+|
+|
+Setup & Configuration
+git init — Create a new Git repository in the current directory.
+
+git clone — Copy an existing repository (with history) from a remote server like GitHub.
+
+git config — Set user details, editor, or preferences (e.g., git config --global user.name "Praveen").
+|
+|
+Daily Work (Staging, Committing, Inspecting)
+git status — Show which files are staged, unstaged, or untracked.
+
+git add — Stage changes for the next commit.
+
+git commit — Save staged changes to the repository history.
+
+git diff — Show differences between files (working vs staged vs committed).
+
+git log — View commit history.
+
+git restore — Discard changes in working directory or unstage files.
+
+git rm — Remove files from the repository and working directory.
+|
+|
+Branching & Merging
+git branch — List, create, or delete branches.
+
+git checkout — Switch to another branch or restore files.
+
+git switch — Easier way to switch branches (modern alternative to checkout).
+
+git merge — Combine changes from one branch into another.
+
+git rebase — Reapply commits on top of another base branch (cleaner history).
+
+git stash — Temporarily save uncommitted changes without committing.
+|
+|
+Remote Repositories (GitHub & Others)
+git remote — Manage connections to remote repositories.
+
+git fetch — Download changes from remote without merging.
+
+git pull — Fetch + merge changes from remote into local branch.
+
+git push — Upload local commits to a remote repository.
+
+git clone — (Already mentioned) Copy a remote repo locally.
+|
+|
+Advanced & Useful Commands
+git reset — Undo commits or unstage files (soft, mixed, hard modes).
+
+git revert — Create a new commit that undoes a previous commit.
+
+git cherry-pick — Apply a specific commit from one branch onto another.
+
+git tag — Mark specific commits as releases or milestones.
+
+git blame — Show who last modified each line of a file.
+
+git reflog — View history of branch movements and HEAD changes.
+
+git submodule — Manage repositories inside other repositories.
+|
+|
+GitHub-Specific Enhancements
+gh cli — GitHub’s command-line tool (gh) for issues, pull requests, releases.
+
+git fork — Duplicate a repository under your GitHub account.
+
+git pull request — (via GitHub CLI) Create or manage PRs directly from terminal.
