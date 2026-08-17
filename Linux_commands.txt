@@ -1,0 +1,146 @@
+Essential Linux Commands
+pwd → Shows the current working directory.
+
+ls → Lists files and folders in the directory.
+
+cd → Changes the current directory.
+
+mkdir → Creates a new directory.
+
+rmdir → Removes an empty directory.
+
+touch → Creates an empty file or updates file timestamp.
+
+cp → Copies files or directories.
+
+mv → Moves or renames files/directories.
+
+rm → Deletes files or directories.
+
+cat → Displays file content.
+
+nano / vim → Text editors inside terminal.
+
+echo → Prints text to terminal or writes to files.
+
+man → Opens manual/help for commands.
+|
+|
+File Permissions & Ownership
+chmod → Changes file permissions.
+
+chown → Changes file ownership.
+
+whoami → Shows current logged‑in user.
+|
+|
+System & Process Management
+ps → Lists running processes.
+
+top → Real‑time view of processes and resource usage.
+
+kill → Terminates a process by ID.
+
+df → Shows disk space usage.
+
+du → Shows directory/file size.
+
+uname → Displays system info.
+
+shutdown → Powers off system.
+
+reboot → Restarts system.
+|
+|
+Networking Commands
+ping → Tests connectivity to a host.
+
+ifconfig / ip → Shows or configures network interfaces.
+
+wget → Downloads files from the internet.
+
+curl → Transfers data from/to servers.
+
+ssh → Connects securely to remote machines.
+|
+|
+Searching & Filtering
+find → Searches for files/directories.
+
+grep → Searches text patterns inside files.
+
+head → Shows first lines of a file.
+
+tail → Shows last lines of a file.
+|
+|
+System & Resource Monitoring
+uname → Kernel and OS details.
+
+uptime → Shows server running time and load averages.
+
+df → Disk space usage across filesystems.
+
+du → Directory/file size estimation.
+
+free → Memory and swap usage.
+
+top / htop → Real‑time process and resource monitoring.
+
+lscpu / lsblk → CPU and block storage details.
+|
+|
+Logs & File Operations
+tail -f → Follow logs in real‑time (critical for debugging).
+
+grep → Search patterns in logs/configs.
+
+find → Locate files by name, size, or modification time.
+
+less → Read large log files page by page.
+|
+|
+Permissions & Security
+chmod → Modify file permissions.
+
+chown → Change file ownership.
+
+sudo → Execute commands with elevated privileges.
+
+umask → Default permission mask for new files.
+|
+|
+Networking & Connectivity
+ping → Test connectivity to a host.
+
+curl → API calls and data transfers.
+
+wget → Download files from URLs.
+
+ssh → Secure remote login to servers.
+
+netstat / ss → Inspect open ports and connections.
+
+iptables / ufw → Manage firewalls.
+|
+|
+Process & Service Management
+ps → List running processes.
+
+kill → Terminate processes.
+
+systemctl → Manage services (start/stop/restart).
+
+journalctl → View systemd logs.
+|
+|
+Package & Automation
+apt / yum / dnf → Package management.
+
+cron → Schedule recurring tasks.
+
+bash scripting → Automate workflows with shell scripts.
+
+docker → Container management.
+
+kubectl → Kubernetes cluster operations.
